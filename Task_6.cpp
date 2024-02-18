@@ -42,7 +42,7 @@ public:
 
     void displayVehicleInfo() const
 	{
-        cout << "\nMake: " << make << ", \nModel: " << model << ", \nYear: " << year << ", \nMileage: " << mileage << endl;
+        cout << "\nMake: " << make << "\nModel: " << model << "\nYear: " << year << "\nMileage: " << mileage << endl;
     }
 };
 
@@ -60,11 +60,11 @@ int main()
 
     if (myVehicle.needsServicing())
 	{
-        cout << "Car needs servicing." << endl;
+        cout << "\nCar needs servicing." << endl;
     }
 	else
 	{
-        cout << "Car does not need servicing." << endl;
+        cout << "\nCar does not need servicing." << endl;
     }
 
     return 0;
